@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Damanjot Singh details</title>
+  <link rel="stylesheet" href="css/style.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="js/script.js"></script>
+
+</head>
+<body>  
+    <section class="header">
+        <div class="text-box">
+        <img src="images/my.jpg" height="350px" width="250px"><br>
+			<h2> Damanjot Singh</h1>
+            <p> Web Developer</p>
+            <a href="myresume.pdf" download="myresume.pdf" class="hero-btn" style="border-radius: 50px;"><i class="fa fa-download"><b>RESUME</b></i></a>
+			&nbsp;&nbsp;<a href="#contactme" class="hero-btn" style="border-radius: 50px;">Contact Me</a>
+        </div>
+    </section>
+	
+
+    <section class="infographic">
+        <div class="row">
+        <div class="infographic-col">
+        <h3 style="text-align:left;">About Me and Academic Honesty</h3>
+            <p align="justify">I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this assessment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assessment for my use. I also declare that no part of this assignment has been distributed to other students.</p>
+			<p align="left">Date : August,13 <sup> th</sup> 2022</p>
+
+   
+        <h3 style="text-align:center;">Basic Information</h3>
+				<table width="80%"  border=0>
+					<tr align=center>
+						<td>AGE</td><td>18</td>
+					</tr>
+					<tr align=center> 
+						<td>EMAIL</td><td>damanjotsingh1712@gmail.com</td>
+					</tr>
+					<tr align=center>
+						<td>LANGUAGE</td><td>English, Hindi & Punjabi.</td>
+					</tr>
+					<tr align=center>
+						<td>CLASS SECTION</td><td>NJJ</td>
+					</tr>
+					<tr align=center>
+						<td>STUDENT ID</td><td>148285216</td>
+					</tr>
+					<tr align=center>
+						<td>INSTRUCTOR</td><td>Prof. NOMAN ATIQUE</td>
+					</tr>
+					</table>
+        </div></div>
+    </section>
+    
+    
+    <section class="education">
+	<h1 align="center">Education</h1>
+	<div class="education-col">
+        <table width="80%" height=200px border=2 style="margin-left:40px;">
+		<tr>
+		<td bgcolor="blue" width="60%"><font color=white>2018-2020</font><br><br> <font color=white size=5>Diploma</font></td>
+		<td align=left style="padding-left:10px;"><font size="5" >Bachelor's Diploma</font><br><font size=4>SENECA COLLEGE</font><br><br><font size=3>Under the supervision of </font><font color=green size=3>Prof. NOMAN ATIQUE</font><br>
+		<font size=3>Awarded with Best Web Designer.</font>
+		</td>
+		</tr>
+		</table><br>
+		<table width="80%" height=200px border=2 style="margin-left:40px;">
+		<tr>
+		<td bgcolor="blue" width="60%"><font color=white>2020-2023 (expected)</font><br><br> <font color=white size=5>Advance Diploma</font></td>
+		<td align=left style="padding-left:10px;"><font size="5" >Diploma</font><br><font size=4>SENECA COLLEGE</font><br><br><font size=3>Under the supervision of </font><font color=green size=3>Prof. NOMAN ATIQUE</font><br>
+		<font size=3>Awarded with Many Scholarships</font>
+		</td>
+		</tr>
+		</table>
+		</div>
+    </section>
+	
+	<section class="contactme" id="contactme">
+        <div class="text-box">
+		<h1>Contact Me</h1></font>
+        <form action="https://httpbin.org/post" method="post" name="f1" onSubmit="return test()">
+		<table width="90%" border=2 align=left >
+		<tr>
+		<td><label for="Name">NAME</label></td>
+		<td><input type=text name="t1" size="30" required></td>
+		</tr>
+		<tr>
+		<td><label for="Email Address">E-MAIL Address</label></td>
+		<td><input type="email" name="t2" size="30" required></td>
+		</tr>
+		<tr>
+		<td><label for="Address">ADDRESS</label></td>
+		
+		<td><input type=text name="t2" size="30" required></td>
+		</tr>
+		<tr>
+		<datalist id="cities">
+  
+  <option>Vancouver</option>
+  <option>Toronto</option>
+  <option>Halifax</option>
+  <option>Calgary</option>
+  <option>New Brunswick</option>
+  <option>St. johns</option>
+  <option>Alberta</option>
+  <option>Edmonton</option>
+  <option>Nunavaut</option>
+  <option>Winnipeg</option>
+  <option>Surrey</option>
+  <option></option>
+  
+</datalist>
+		<td><label for="city">CITY</label></td>
+		<td><input type="text" list="cities" id="city" name="city" size="30"></td>
+		</tr>
+		<tr>
+		<td><label for="postal code">POSTAL CODE</label></td>
+		<td><input type=text name="t7" size="30" required></td>
+		</tr>
+		
+		<tr>
+		<td><label for="what">what this is about</label></td>
+		<td><label for="Question">QUESTION</label>
+		<input type=radio name="r1" onClick="hide1()" value="question">
+		<label for="Comment">COMMENT</label>
+		<input type=radio name="r1" value="comment" onClick="hide1()">
+		<label for="Hiring">HIRING</label>
+		<input type=radio name="r1" value="hiring" onClick="show1()">
+            
+		</td>
+		</tr>
+		<tr>
+		
+		<td><label for="Message">MESSAGE</label></td>
+		<td><textarea rows="7" cols="40" name="t5"></textarea></td>
+		</tr>
+		<tr>
+		<td><label for="Mobile">MOBILE</label></td>
+		<td><input type=text name="t2" size="30"></td>
+		</tr>
+		<tr>
+		<td colspan=2 align=center><input type="submit" value="send" name=b1 style="width:200px;"></td>
+		<tr>
+		</table>
+		</form>
+		
+        </div>
+    </section>
+	
+
+    
+    </body>
+</html>
